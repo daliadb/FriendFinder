@@ -1,20 +1,66 @@
-5. You should save your application's data inside of `app/data/friends.js` as an array of objects. Each of these objects should roughly follow the format below.
-
-```json
-{
-  "name":"Ahmed",
-  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-  "scores":[
-      5,
+var friends = [
+  {
+    name: "Rachel Green",
+    photo: "https://goo.gl/images/m2NSCk",
+    scores: [
+      1,
       1,
       4,
-      4,
+      3,
       5,
-      1,
       2,
+      4,
       5,
       4,
       1
     ]
-}
-```
+  },
+    {
+    name: "Monica Geller",
+    photo: "https://goo.gl/images/aa4gbt",
+    scores: [
+      5,
+      1,
+      5,
+      1,
+      5,
+      1,
+      3,
+      5,
+      2,
+      1
+    ]
+  },
+    {
+    name: "Chandler Bing",
+    photo: "https://goo.gl/images/BVNHH1",
+    scores: [
+      4,
+      1,
+      3,
+      4,
+      5,
+      1,
+      5,
+      5,
+      3,
+      1
+    ]
+  },
+    {
+    name: "Ross Geller",
+    photo: "https://goo.gl/images/0VCxnf",
+    scores: [
+      5,
+      3,
+      4,
+      1,
+      5,
+      4,
+      2,
+      2,
+      4,
+      5
+    ]
+  }
+];
